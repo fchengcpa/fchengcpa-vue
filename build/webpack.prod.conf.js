@@ -1,3 +1,4 @@
+var PrerenderSpaPlugin = require('prerender-spa-plugin')
 var path = require('path')
 var utils = require('./utils')
 var webpack = require('webpack')
@@ -100,7 +101,14 @@ var webpackConfig = merge(baseWebpackConfig, {
       $: 'jquery',
       jQuery: 'jquery',
       'semantic-ui-css': 'semantic-ui-css'
-    })
+    }),
+    // Added by yuecen
+    new PrerenderSpaPlugin(
+      // Path to compiled app
+      path.join(__dirname, '../dist'),
+      // List of endpoints you wish to prerender
+      [ '/', '/services', '/accountant']
+    )
   ]
 })
 
