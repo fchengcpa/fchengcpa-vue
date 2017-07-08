@@ -27,6 +27,7 @@ module.exports = {
   // Other configs...
   "globals": {
     "$": true,
-    "jQuery": true
+    "jQuery": true,
+    "$crisp": true
   }
 }

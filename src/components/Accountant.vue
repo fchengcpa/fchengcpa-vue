@@ -8,24 +8,12 @@
         <div class="left aligned eleven wide column">
           <h1>陳志成</h1>
           <p>會計師 / 大學外聘講師 / 勞工局就業輔導講師 / 會計稅務書籍主編</p>
-          <h2>專長</h2>
-            <div class="ui list">
-              <div class="item">
-                會計學
-              </div>
-              <div class="item">
-                成本管理會計
-              </div>
-              <div class="item">
-                記帳相關法規
-              </div>
-              <div class="item">
-                租稅申報實務
-              </div>
-            </div>
           <h2>經歷</h2>
           <p>
             <div class="ui list">
+              <div class="item">
+                現任經濟部中小企業處榮譽會計師
+              </div>
               <div class="item">
                 現任知名輔考機構講師
               </div>
@@ -39,10 +27,10 @@
                 曾任勞工局就業輔導 - 會計實務應用班講師
               </div>
               <div class="item">
-                曾任資誠聯合會計師事務所 (審計組)
+                曾任資誠聯合會計師事務所(審計組)
               </div>
               <div class="item">
-                曾任建利會計師事務所 (稅務組)
+                曾任建利會計師事務所(稅務組)
               </div>
             </div>
           </p>
@@ -67,13 +55,13 @@
           <p>
             <div class="ui list">
               <div class="item">
-                成本管理會計學(千華出版社)
+                成本管理會計學(千華出版社) [<a href="https://www.youtube.com/watch?v=NDW6qPTZFc0">影片導讀</a>]
               </div>
               <div class="item">
-                會計學(千華出版社)
+                會計學(千華出版社) [<a href="https://www.youtube.com/watch?v=40J-G2an1X0">影片導讀</a>]
               </div>
               <div class="item">
-                租稅申報實務(千華出版社)
+                租稅申報實務(千華出版社) [<a href="https://www.youtube.com/watch?v=CT_FR2Lk5iM">影片導讀</a>]
               </div>
               <div class="item">
                 租稅申報實務[主題式題庫+歷年試題](千華出版社)

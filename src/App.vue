@@ -5,6 +5,7 @@
         <router-link class="header item" to="/" exact>首頁</router-link>
         <router-link class="item" to="/services">服務項目</router-link>
         <router-link class="item" to="/accountant">會計師</router-link>
+        <router-link class="item" to="/#contact">聯絡我們</router-link>
       </div>
     </div>
     <router-view></router-view>
