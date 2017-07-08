@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Landing from '@/components/Landing'
 import OurServices from '@/components/OurServices'
 import Accountant from '@/components/Accountant'
+import PageNotFound from '@/components/PageNotFound'
+
 // import BootstrapVue from 'bootstrap-vue'
 
 // Vue.use(BootstrapVue)
@@ -28,6 +30,10 @@ export default new Router({
       path: '/accountant',
       name: 'Accountant',
       component: Accountant
+    },
+    { path: '*',
+      name: 'PageNotFound',
+      component: PageNotFound
     }
   ],
   scrollBehavior: function (to, from, savedPosition) {
